@@ -31,8 +31,6 @@ else {
 }
 
 
-
-
 let edad = 17;
 let tieneLicencia = true;
 
@@ -67,4 +65,26 @@ if (nota === "") {
     console.log("Suficiente");
 } else {
     console.log("No apruebas");
+}
+
+
+//Proyecto 2
+//Si la nota es 90 o más, el estudiante aprueba con "Excelente".
+//Si la nota está entre 75 y 89, el estudiante aprueba con "Bien".
+//Si la nota está entre 60 y 74, el estudiante aprueba con "Suficiente".
+//Si la nota es menor de 60, el estudiante no aprueba.
+
+let calific = 59;
+
+if (calific >= 90){
+    console.log("Excelente");
+}
+else if (calific >= 75 && nota <= 89){
+    console.log("Bien");
+}
+else if (calific >=60 && nota <=74) {
+    console.log("Suficiente");
+}
+else {
+    console.log("No aprobado");
 }
