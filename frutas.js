@@ -1,16 +1,3 @@
-//declarar mi objeto libro
-
-const libro = {
-    titulo: "Ready player One",
-    autor: "Ernest clean",
-    numeroPagina: 374,
-    editorial: "Crown publishing Group"
-}
-
-console.log(libro.editorial);
-
-let libros = ["Cien a;os de soledad", "Gabriel Garcia Marquez", 432, "Sudamericana"];
-
 //declarar un arreglo llamado frutas con cada tipo de fruta 
 let frutas = ["Manzana", "Platano", "Manzana", "lulo", "platano", "lulo", "Manzana"];
 
@@ -34,4 +21,3 @@ console.log("conteo de frutas usando ciclo for");
 for(let fruta in conteofrutas){
     console.log(`${fruta}: ${conteofrutas[fruta]}`);
 }
-s
