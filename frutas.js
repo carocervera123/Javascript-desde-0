@@ -26,4 +26,4 @@ for(let fruta in conteofrutas){
 suma= 3+2+"7";
 
 
-console.log(suma)
+console.log(suma) 
