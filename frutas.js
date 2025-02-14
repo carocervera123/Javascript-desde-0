@@ -21,3 +21,9 @@ console.log("conteo de frutas usando ciclo for");
 for(let fruta in conteofrutas){
     console.log(`${fruta}: ${conteofrutas[fruta]}`);
 }
+
+
+suma= 3+2+"7";
+
+
+console.log(suma)
