@@ -1,0 +1,65 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .generator {
+    background-color: #1e1e1e; /* Fondo del formulario */
+    border-radius: 8px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .generator h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1b6307; /* Color del título */
+  }
+  
+  .generator input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+  }
+  
+  .generator .options {
+    margin-bottom: 20px;
+  }
+  
+  .generator .options label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .generator .options input[type="range"] {
+    width: 100%;
+  }
+  
+  .generator .options input[type="checkbox"] {
+    margin-right: 8px;
+  }
+    
+  .generator button {
+    background-color: #077c0f; /* Color del botón */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .generator button:hover {
+    background-color: #abd61d;
+  }
